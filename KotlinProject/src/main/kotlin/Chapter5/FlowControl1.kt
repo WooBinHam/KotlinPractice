@@ -3,6 +3,7 @@ package Chapter5
 fun main() {
     retFunc1()
     retFunc2()
+    retFunc3()
 }
 
 // 람다식에서 return 사용하기
@@ -28,6 +29,17 @@ fun retFunc2() {
     inlineLambda2(13, 3) lit@{ a, b ->  // 1번 람다식 블록의 시작 부분에 라벨을 지정함
         val result = a + b
         if (result > 10) return@lit           // 2번 라벨을 사용한 블록의 끝부분으로 반환(3번)
+        println("result: $result")
+    }                                         // 3번
+    println("end of retFunc")                 // 4번 이 부분이 실행됨
+}
+
+// 암묵적 라벨
+fun retFunc3() {
+    println("start of retFunc2")
+    inlineLambda2(13, 3) { a, b ->        // 1번 람다식 블록의 시작 부분에 라벨을 지정함
+        val result = a + b
+        if (result > 10) return@inlineLambda2   // 2번 라벨을 사용한 블록의 끝부분으로 반환(3번)
         println("result: $result")
     }                                         // 3번
     println("end of retFunc")                 // 4번 이 부분이 실행됨
