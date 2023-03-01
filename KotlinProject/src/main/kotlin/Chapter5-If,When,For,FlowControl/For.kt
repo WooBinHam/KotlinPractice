@@ -1,4 +1,4 @@
-package Chapter5
+package `Chapter5-If,When,For,FlowControl`
 
 //for(요소 변수 in 컬렉션 혹은 범위){
 //    반복한 구문
