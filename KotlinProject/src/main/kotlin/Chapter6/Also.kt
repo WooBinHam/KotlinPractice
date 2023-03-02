@@ -26,11 +26,11 @@ fun main() {
 }
 
 // 기존의 디렉터리 생성 함수
-fun makeDir(path: String): File {
-    val result = File(path)
-    result.mkdirs()
-    return result
-}
+//fun makeDir(path: String): File {
+//    val result = File(path)
+//    result.mkdirs()
+//    return result
+//}
 
 // let과 also를 이용한 개선된 함수
-fun makeDir2(path: String) = path.let { File(it) }.also { it.mkdirs() }
+//fun makeDir2(path: String) = path.let { File(it) }.also { it.mkdirs() }
