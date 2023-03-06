@@ -1,4 +1,4 @@
-package BasicKotlin1_Chapter6
+package BasicKotlin1.BasicKotlin1_Chapter6
 
 import java.io.BufferedReader
 import java.io.FileOutputStream

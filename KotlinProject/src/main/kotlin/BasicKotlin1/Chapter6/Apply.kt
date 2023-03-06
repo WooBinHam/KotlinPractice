@@ -1,4 +1,4 @@
-package BasicKotlin1_Chapter6
+package BasicKotlin1.BasicKotlin1_Chapter6
 
 fun main() {
     data class Person(var name: String, var skills: String)

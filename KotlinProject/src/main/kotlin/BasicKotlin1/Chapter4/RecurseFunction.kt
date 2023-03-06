@@ -1,4 +1,4 @@
-package BasicKotlin1_Chapter4
+package BasicKotlin1.BasicKotlin1_Chapter4
 
 fun main() {
     normalFactorial()

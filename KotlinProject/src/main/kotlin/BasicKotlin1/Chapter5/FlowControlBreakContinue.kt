@@ -1,4 +1,4 @@
-package BasicKotlin1_Chapter5
+package BasicKotlin1.BasicKotlin1_Chapter5
 
 fun main() {
     for (i in 1..5) {

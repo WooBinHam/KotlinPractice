@@ -1,4 +1,4 @@
-package BasicKotlin1_Chapter6
+package BasicKotlin1.BasicKotlin1_Chapter6
 
 // 클로저: 람다식으로 표현된 내부 함수에서 외부 범위에 선언된 변수에 접근할 수 있는 개념. 람다식 안에 있는 외부 변수는 값을 유지하기 위해 람다가 포획(Capture)한 변수
 fun main() {

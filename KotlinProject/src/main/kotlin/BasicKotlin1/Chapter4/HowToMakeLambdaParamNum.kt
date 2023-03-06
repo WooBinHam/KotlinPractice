@@ -1,4 +1,4 @@
-package BasicKotlin1_Chapter4
+package BasicKotlin1.BasicKotlin1_Chapter4
 
 fun main() {
     // 매개변수 없는 람다식 함수
