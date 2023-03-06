@@ -1,15 +1,15 @@
-package BasicKotlin1.BasicKotlin1_Chapter4
+package BasicKotlin1.Chapter4
 
 fun main() {
-    val result1 = BasicKotlin1.BasicKotlin1_Chapter4.callByValue(BasicKotlin1.BasicKotlin1_Chapter4.Lambda())
+    val result1 = BasicKotlin1.Chapter4.callByValue(BasicKotlin1.Chapter4.Lambda())
     println(result1)
     println()
 
-    val result2 = BasicKotlin1.BasicKotlin1_Chapter4.callByName(BasicKotlin1.BasicKotlin1_Chapter4.otherLambda)
+    val result2 = BasicKotlin1.Chapter4.callByName(BasicKotlin1.Chapter4.otherLambda)
     println(result2)
     println()
 
-    val result3 = BasicKotlin1.BasicKotlin1_Chapter4.funcParam(3, 2, ::sum2)      // 참조방식
+    val result3 = BasicKotlin1.Chapter4.funcParam(3, 2, ::sum2)      // 참조방식
     println(result3)
 }
 

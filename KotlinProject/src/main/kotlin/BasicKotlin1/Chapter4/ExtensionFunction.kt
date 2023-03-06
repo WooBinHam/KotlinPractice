@@ -1,4 +1,4 @@
-package BasicKotlin1.BasicKotlin1_Chapter4
+package BasicKotlin1.Chapter4
 
 // 확장함수: 클래스의 멤버 함수를 외부에서 더 추가할 수 있음
 // 형태 -> fun 확장대상.함수명(매개변수..):반환값{ ... 리턴값 }

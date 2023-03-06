@@ -1,4 +1,4 @@
-package BasicKotlin1.BasicKotlin1_Chapter4
+package BasicKotlin1.Chapter4
 
 fun main() {
     //fun(x: Int, y: Int): Int = x + y 형태. 함수 이름이 생략된 익명 함수

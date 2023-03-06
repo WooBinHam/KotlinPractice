@@ -1,4 +1,4 @@
-package BasicKotlin1.BasicKotlin1_Chapter6
+package BasicKotlin1.Chapter6
 
 fun main() {
     val score: Int? = 32

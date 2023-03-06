@@ -1,4 +1,4 @@
-package BasicKotlin1.BasicKotlin1_Chapter5
+package BasicKotlin1.Chapter5
 
 //for(요소 변수 in 컬렉션 혹은 범위){
 //    반복한 구문
