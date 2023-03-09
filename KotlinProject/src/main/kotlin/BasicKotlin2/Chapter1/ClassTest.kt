@@ -9,8 +9,6 @@ class Car {
     }
 }
 
-class Bird
-
 // 객체 정의
 fun main(){
     val sonata: Car = Car()
