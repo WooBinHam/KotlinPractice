@@ -20,7 +20,7 @@ class Child : Base() {
     }
 }
 
-// 앵클 브라켓을 사용한 이름 중복 해결
+// 앵글브라켓을 사용한 이름 중복 해결
 open class A {
     open fun f() = println("A Class f()")
     fun a() = println("A Class a()")
